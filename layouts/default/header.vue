@@ -10,6 +10,7 @@
         class="max-w-7xl mx-auto flex justify-between items-center relative px-4"
         :class="shrink ? 'py-2 h-16' : 'py-6'"
       >
+        <div class="text-white text-2xl font-bold">Thought of the day</div>
         <div class="lg:hidden order-last">
           <button class="navbar-burger p-3 text-white" @click="toggle">
             <svg
