@@ -3,12 +3,13 @@
     <Title>主頁</Title>
   </Head>
 
-  <section class="relative bg-white pt-36 overflow-hidden lg:pt-12 mb-12">
+  <section class="relative bg-white pt-44 overflow-hidden lg:pt-12 mb-12">
     <div
       class="max-w-7xl h-96 flex flex-col-reverse gap-12 container px-4 mx-auto items-center lg:flex-row"
     >
       <div class="flex flex-col gap-6 w-full lg:w-1/2">
-        <div class="text-4xl font-bold text-orange-400">我是呂源浩(Anthony Loi)</div>
+        <div class="text-4xl font-bold text-orange-400">我是呂源浩</div>
+        <div class="text-4xl font-bold text-orange-400">Anthony Loi</div>
         <div class="text-md">
           歡迎來到我的網頁,這個網頁是我展示自己、分享我的經驗、以及與世界各地的人們聯繫的地方。
         </div>
