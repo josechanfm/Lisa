@@ -3,16 +3,18 @@
     <nav
       id="nav"
       :class="{ 'nav-shrink': shrink, 'with-sub-menu-open': showSubmenu }"
-      class="relative bg-orange-500 transition-all overflow-clip"
+      class="relative transition-all overflow-clip bg-blue-50"
       ref="nav"
     >
       <div
         class="max-w-7xl mx-auto flex justify-between items-center relative px-4"
         :class="shrink ? 'py-2 h-16' : 'py-6'"
       >
-        <div class="text-white text-2xl font-bold">Thought of the day</div>
+        <div class="text-blue-400 text-xl font-bold flex-none lg:w-1/3">
+          Research is Formalized Curiosity
+        </div>
         <div class="lg:hidden order-last">
-          <button class="navbar-burger p-3 text-white" @click="toggle">
+          <button class="navbar-burger p-3 text-black" @click="toggle">
             <svg
               class="block h-4 w-4 fill-current"
               viewBox="0 0 20 20"
@@ -23,16 +25,16 @@
             </svg>
           </button>
         </div>
-        <NuxtLink :to="'/'">
-          <div class="hidden lg:block text-sm text-white">主頁</div>
-        </NuxtLink>
-        <a class="" href="#">
+        <div class="hidden lg:block text-sm text-black lg:flex-none lg:w-1/3 text-center">
+          <div><NuxtLink :to="'/'">主頁 </NuxtLink></div>
+        </div>
+        <div class="lg:flex-none lg:w-1/3 flex justify-end" href="#">
           <div
-            class="rounded-full hidden lg:block w-full md:w-auto mb-8 md:mb-0 py-3 px-8 text-center text-sm font-bold uppercase bg-gray-200 hover:bg-gray-100 transition duration-200"
+            class="rounded-full hidden lg:block w-32 mb-8 md:mb-0 py-3 px-8 text-center text-sm font-bold uppercase bg-gray-200 hover:bg-gray-100 transition duration-200"
           >
             聯絡我
           </div>
-        </a>
+        </div>
       </div>
     </nav>
 
@@ -46,13 +48,13 @@
       @mouseleave="leave"
     >
       <div
-        class="overflow-auto h-full bg-orange-500"
+        class="overflow-auto h-full bg-blue-50"
         :class="shrink ? 'py-12' : 'py-12 pt-6'"
       >
         <div class="w-full">
           <ul class="w-full lg:hidden" v-if="!openedMenu">
             <li
-              class="px-4 py-2 text-white hover:text-gray-800 text-lg"
+              class="px-4 py-2 text-black hover:text-gray-800 text-lg"
               v-for="menuItem in menu"
             >
               <span v-if="menuItem.subMenu" @click="setHover(menuItem.subMenu)">{{
@@ -66,7 +68,7 @@
         </div>
         <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
           <div
-            class="flex flex-col gap-3 text-lg font-medium capitalize justify-center py-2 text-white lg:hidden md:col-span-3"
+            class="flex flex-col gap-3 text-lg font-medium capitalize justify-center py-2 text-black lg:hidden md:col-span-3"
             v-if="openedMenu"
           >
             <button @click="clearSel">
