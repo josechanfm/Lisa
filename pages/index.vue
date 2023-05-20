@@ -2,7 +2,7 @@
   <Head>
     <Title>主頁</Title>
   </Head>
-
+   <!--個人簡介 -->
   <section class="relative bg-white pt-36 overflow-hidden lg:pt-12 mb-12">
     <div
       class="max-w-7xl h-full flex flex-col-reverse gap-12 container px-4 mx-auto lg:flex-row"
@@ -12,9 +12,11 @@
           <div class="text-4xl font-bold text-blue-400">我是徐小舒</div>
           <div class="text-4xl font-bold text-blue-400">Lisa Xu</div>
           <div class="text-md">
+            Xiaoshu Xu (Managing Editor in Chief) is an associate professor at Wenzhou University (China). She received her Ph.D. in Education in the City University of Macau. Since 2020, she is the member of the board of World Sports University and the External PhD Supervisor of Stamford International University (Thailand). Her research interests include teacher education and development, language teaching and learning, and online education. She has published around 10 empirical research papers in SSCI, CSSCI, ESCI, and Scopus indexed journals, including Interactive Learning Environment, Assessment & Evaluation, etc. She is a volunteer reviewer of research papers in refereed professional journals (e.g., CALL). 
+          </div>
+          <div class="text-md">
             徐小舒（博士，博导），温州大学外国语学院副教授，JETI国际期刊执行主编，泰国斯坦福国际大学外聘博导，澳门理工大学外聘专家。主持1项国家社科基金项目，10余项省部级、厅局级课题，在SSCI、CSSCI、SCIE等收录的期刊上发表了10余篇论文。与国际知名出版社Routledge签约，将于2023年出版个人学习环境方面的英文著作。她是多个SSCI来期刊的匿名审稿人，2020年被评为新湖学者，2022年被聘为瓯江特聘教授。近年来她主要致力于世界体育大学出版社下的JETI
-            (Journal of Educational Technology and
-            Innovation)国际期刊的发展及高等教育学术团队的建设。
+            (Journal of Educational Technology and Innovation)国际期刊的发展及高等教育学术团队的建设。
           </div>
         </div>
       </div>
@@ -28,6 +30,7 @@
       </div>
     </div>
   </section>
+
   <div class="skew skew-bottom mr-for-radius">
     <svg
       class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
@@ -37,6 +40,7 @@
       <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
     </svg>
   </div>
+
   <div class="skew skew-bottom ml-for-radius">
     <svg
       class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
@@ -46,47 +50,126 @@
       <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
     </svg>
   </div>
-  <section class="py-24">
+  <!-- 国际会议发言 -->
+  <section class="py-12">
     <div class="max-w-7xl container px-4 mx-auto">
-      <div class="w-full lg:w-2/3 mb-16">
-        <h2 class="my-5 text-4xl font-bold font-heading text-blue-400">職業生涯</h2>
-        <p class="text-lg text-gray-500">分享我職業生涯的重要時刻</p>
-      </div>
-    </div>
-  </section>
-  <div class="skew skew-bottom mr-for-radius">
-    <svg
-      class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
-      viewBox="0 0 10 10"
-      preserveAspectRatio="none"
-    >
-      <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
-    </svg>
-  </div>
-  <div class="skew skew-bottom ml-for-radius">
-    <svg
-      class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
-      viewBox="0 0 10 10"
-      preserveAspectRatio="none"
-    >
-      <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
-    </svg>
-  </div>
-  <section class="py-24">
-    <div class="max-w-7xl container px-4 mx-auto">
-      <div class="w-full lg:w-2/3 mb-16">
-        <h2 class="my-5 text-4xl font-bold font-heading text-blue-300">專業資格</h2>
-        <p class="text-lg text-gray-500">從各大機構獲得的認可</p>
+      <div class="w-full lg:w-2/3 mb-16 ml-5" >
+        <h2 class="my-5 text-4xl font-bold font-heading text-blue-400">国际会议发言</h2>
+        <p class="text-lg text-gray-500">
+          近5年以来在国际会议上的发言
+        </p>
+          <ol class="list-decimal mr-5">
+            <li>第六届海峡两岸暨港澳地区比较教育论坛2019 “Learning Process Design of the Supervised-PLE: Based on the Honey and Mumford Learning Style”. </li>
+            <li>The 16th Asia TEFL, 1st MAAL & 6th HAAL 2018 International Conference 27-29 June 2018, Macau SAR “ Personal learning environment: an experience with ESP teacher training”</li>
+            <li>第七界清华大学教育研究院暨第二届清华大学未来教育论坛博士生论坛，2018“我国博士专业学位制度研究”。</li>
+            <li>第一届温港澳教育年会, 2017,“Pilot Study of the PLE-IELTS platform”</li>
+            <li>XVI World Congress of Comparative Education Societies Dialectics of Education: Comparative Perspectives, Beijing Normal University, 2016, “Reconceptualization of PLE: based on the OCA software”</li>
+            <li>The 4th International Conference of the Chinese Association for ESP & the 7th International Conference on ESP in Asia, 2015, China University of Petroleum, “TPACK Framework for ESP teachers”</li>
+          </ol>
       </div>
     </div>
   </section>
 
-  <section class="py-24">
+  <section class="py-12">
     <div class="max-w-7xl container px-4 mx-auto">
-      <div class="w-full mb-16">
+      <div class="w-full lg:w-2/3 mb-16 ml-5">
+        <h2 class="my-5 text-4xl font-bold font-heading text-blue-400">专业方面已经结题的项目</h2>
+          <ul class="list-disc mr-5">
+            <li>
+              高等教育个人学习环境的建构与应用<br>
+              国家级 2021.10-2023.12
+            </li>
+            <li>
+              后疫情时代“侨企通才“发展模式研究（RZWKZX-TS005）<br>
+              校级 2020.10-2022.10
+            </li>
+            <li>
+              后疫情时代“侨企通才“发展模式研究（RZWKZX-TS005）<br>
+              校级 2020.10-2022.10
+            </li>
+            <li>
+              基于个人学习环境云平台的研究生学术素养培养模式研究（316202103204）<br>
+              校级 2020.11-2022.11
+            </li>
+            <li>
+              2020年浙江省教育科学规划课题“疫情与教育（2020YQJY374）<br>
+              浙江省教育厅 2020.4-12
+            </li>
+            <li>
+              基于个人学习环境云平台的专门用途英语混合教学模式之研究 kg20160379<br>
+              2016省课堂教学改革 2016-2018
+            </li>
+            <li>
+              浙江省高校个人学习环境云平台的理论与实践研究 （2015B041）（省社科联）<br>
+              省社科联 2015-2017
+            </li>
+            <li>
+              基于个人学习环境的大学英语云平台的建构与应用 (JW2015120303)<br>
+              校级教改重点 2015-2017
+            </li>
+            <li>
+              个人学习环境视角下高校跨文化意识的理论与实践<br>
+              温州市人力资源和社会保障局2015年度引智项目 2015-2018
+            </li>
+          </ul>
+        <p>
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="skew skew-bottom mr-for-radius">
+    <svg
+      class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
+      viewBox="0 0 10 10"
+      preserveAspectRatio="none"
+    >
+      <polygon fill="currentColor" points="0 0 10 0 0 10"></polygon>
+    </svg>
+  </div>
+
+  <div class="skew skew-bottom ml-for-radius">
+    <svg
+      class="h-8 md:h-12 lg:h-20 w-full text-blue-50"
+      viewBox="0 0 10 10"
+      preserveAspectRatio="none"
+    >
+      <polygon fill="currentColor" points="0 0 10 0 10 10"></polygon>
+    </svg>
+  </div>
+
+  <!-- 其他相关的专业和社区服务经验 -->
+  <section class="py-12">
+    <div class="max-w-7xl container px-4 mx-auto">
+      <div class="w-full lg:w-2/3 mb-16 ml-5">
+        <h2 class="my-5 text-4xl font-bold font-heading text-blue-300">其他相关的专业和社区服务经验</h2>
+        <p class="text-lg text-gray-500">從各大機構獲得的認可</p>
+        <ul class="list-disc mr-5">
+          <li>2021年至今  泰国Stamford国际学校外聘博士生导师</li>
+          <li>2020年至今  ILE期刊（SSCI来源期刊）匿名审稿人</li>
+          <li>2020年至今  温州大学人文社科处跟岗</li>
+          <li>2019年-2024  亿企众创空间创业导师</li>
+          <li>2018年至今  CALL期刊（SSCI来源期刊）匿名审稿人（前150名）</li>
+          <li>2018年至今  亚洲EFL成员</li>
+          <li>2017年至今  CEAP协会会员</li>
+          <li>2016年至今  民主联盟成员</li>
+          <li>2016年至今  香港商业工程协会骨干成员</li>
+          <li>2015-至今  全国英语PETS口语考官</li>
+          <li>2015-2016  世界教育信息杂志通讯员</li>
+          <li>2016-2019  培训机构外教管理 </li>
+          <li>2014年至今  澳门高等教育学会理事及监事</li>
+          <li>2005年至今  温州留学生创业协会理事</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 學術論文 -->
+  <section class="py-12">
+    <div class="max-w-7xl container px-4 mx-auto">
+      <div class="w-full mb-16 ml-5">
         <h2 class="my-5 text-4xl font-bold font-heading text-blue-300">學術論文</h2>
         <ul
-          class="list-disc list-inside text-xs [&>*:nth-child(even)]:text-gray-500 lg:columns-2 w-full space-y-4"
+          class="mr-5 list-disc text-xs [&>*:nth-child(even)]:text-gray-500 lg:columns-2 space-y-4"
         >
           <li>
             Xu, X. and Chen , H. (2014) ‘Recasting College English Course into a SPOC

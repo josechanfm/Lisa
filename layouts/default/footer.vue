@@ -4,11 +4,11 @@
       <div class="flex flex-wrap justify-between items-center -mx-2">
         <div class="w-full lg:w-2/6 px-2">
           <p class="hidden lg:block text-sm text-gray-500">
-            All rights reserved, Copyright © {{ new Date().getFullYear() }} Anthony Loi
+            All rights reserved, Copyright © {{ new Date().getFullYear() }} <a href="https://hubis.ltd" class="text-blue-600">Hubis</a>
           </p>
         </div>
         <p class="mt-6 lg:hidden text-sm text-gray-500">
-          All rights reserved, Copyright © {{ new Date().getFullYear() }} Anthony Loi
+          All rights reserved, Copyright © {{ new Date().getFullYear() }} <a href="https://hubis.ltd" class="text-blue-600">Hubis</a>
         </p>
       </div>
     </div>
