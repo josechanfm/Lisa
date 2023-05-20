@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>主頁</Title>
+    <Title>徐小舒 Lisa</Title>
   </Head>
    <!--個人簡介 -->
   <section class="relative bg-white pt-36 overflow-hidden lg:pt-12 mb-12">

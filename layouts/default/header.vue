@@ -26,7 +26,7 @@
           </button>
         </div>
         <div class="hidden lg:block text-sm text-black lg:flex-none lg:w-1/3 text-center">
-          <div><NuxtLink :to="'/'">主頁 </NuxtLink></div>
+          <div><NuxtLink :to="'/'">徐小舒 Lisa </NuxtLink></div>
         </div>
         <div class="lg:flex-none lg:w-1/3 flex justify-end" href="#">
           <div
