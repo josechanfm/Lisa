@@ -296,7 +296,6 @@ Technology and Innovation) 国际期刊的发展及高等教育学术团队的�
         <div class="w-full lg:w-1/2 px-4">
           <div class="py-8 bg-white text-center rounded-xl h-48">
             <h3 class="mb-4 text-lg font-semibold text-blue-300">聯絡方式</h3>
-            <div class="text-gray-500">電話：13758710957</div>
             <div class="flex items-center justify-center gap-3">
               <div class="">
                 <img src="../public/atis-assets/social/mail.png" class="w-8 h-8" />
