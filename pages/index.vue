@@ -15,7 +15,6 @@
             Xiaoshu Xu (Managing Editor in Chief) is an associate professor at Wenzhou University (China). She received her Ph.D. in Education in the City University of Macau. Since 2020, she is the member of the board of World Sports University and the External PhD Supervisor of Stamford International University (Thailand). Her research interests include teacher education and development, language teaching and learning, and online education. She has published around 10 empirical research papers in SSCI, CSSCI, ESCI, and Scopus indexed journals, including Interactive Learning Environment, Assessment & Evaluation, etc. She is a volunteer reviewer of research papers in refereed professional journals (e.g., CALL). 
           </div>
           <div class="text-md">
-   
 徐小舒（博士，博导），温州大学外国语学院瓯江特聘教授，JETI国际期刊执行主编，泰国斯坦福国际大学和澳门理工大学外聘博导。主持1项国家社科基金项目，10余项省部级、厅局级课题，在SSCI、CSSCI、Scopus等收录的期刊上发表了30余篇论文。与国际知名出版社Routledge签约，将于2024年出版个人学习环境方面的英文著作。她是多个SSCI来期刊的匿名审稿人
 ，近年来主要致力于JETI (Journal of Educational
 Technology and Innovation) 国际期刊的发展及高等教育学术团队的建设。
